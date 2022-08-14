@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/ba72bcbcbe.js" crossorigin="anonymous"></script>
+    <title>Ratingproject</title>
+</head>
+<body>
+    <div class="container">
+        <form action="confirmation.html">
+        <div class="star">
+            <i class="fa-solid fa-star star-icon"></i>
+        </div>
+        <h2>
+            How did we do?
+        </h2>
+        <p>
+            Please let us know how we did with our support request.All feedback is appreciated to help us improve our offering! 
+        </p>
+        <input type="button" value="1" id="btn1" onclick="clickButton(this.id)" onmouseover="changeStyle(this.id)" onmouseout="getOldStyle(this.id)"/>
+        <input type="button" value="2" id="btn2" onclick="clickButton(this.id)" onmouseover="changeStyle(this.id)" onmouseout="getOldStyle(this.id)"/>
+        <input type="button" value="3" id="btn3" onclick="clickButton(this.id)" onmouseover="changeStyle(this.id)" onmouseout="getOldStyle(this.id)"/>
+        <input type="button" value="4" id="btn4" onclick="clickButton(this.id)" onmouseover="changeStyle(this.id)" onmouseout="getOldStyle(this.id)"/>
+        <input type="button" value="5" id="btn5" onclick="clickButton(this.id)" onmouseover="changeStyle(this.id)" onmouseout="getOldStyle(this.id)"/>
+        <br>
+        <input type="submit" value="SUBMIT" id="btn" onmouseover="getStyle()">
+    </form>
+    </div>
+    <script type="text/javascript" src="./app.js"></script>   
+</body>
+</html>

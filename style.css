@@ -1,0 +1,63 @@
+body{
+    background-color: black;
+    font-size: 15px;
+    line-height: 1.5rem;
+}
+
+.container{
+    width: 350px;
+    background-color: hsl(216,12%,8%);
+    color:  hsl(217, 12%, 63%);
+    padding: 10px 20px;
+    margin: 50px auto;
+    border-radius: 10px;
+}
+
+.confirm-container{
+    text-align: center;
+    padding: 20px;
+}
+
+h2{
+    color: white;
+}
+.star{
+    width: 20px;
+    box-shadow: 0px 0px 2px hsl(217, 12%, 63%);
+    background-color: hsl(213, 19%, 18%);
+    border-radius: 50px;
+    padding: 5px;
+}
+
+.star-icon{
+    color: hsl(25,97%,53%);
+}
+
+input{
+    width: 20px;
+    background-color: hsl(213, 19%, 18%);
+    border-radius: 50px;
+    padding: 5px;
+    border: 0px;
+    color:  hsl(217, 12%, 63%);
+    padding: 10px 20px;
+    margin: 10px 10px;
+}
+
+#btn{
+    background-color: hsl(25,97%,53%);
+    color: white;
+    width: 100%;
+    border: 0px;
+    border-radius: 50px;
+    padding: 7px;
+    margin:10px auto;
+    display: block;
+    font-weight: bold;
+}
+#feedback{
+    background-color: hsl(213, 19%, 18%);
+    color: hsl(25,97%,53%);
+    border-radius: 30px;
+    border: 1px solid  hsl(213, 19%, 18%);
+}
